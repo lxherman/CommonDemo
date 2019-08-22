@@ -21,3 +21,6 @@ data = {
 
 # re = requests.get(api,headers=headers)
 re = requests.post(api,headers=headers,data=data)
+
+
+print(re.text)
