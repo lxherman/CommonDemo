@@ -19,7 +19,14 @@ data = {
     "":""
 }
 
+proxies = {
+    "http": "http://  ip  : port ",
+    "https": "https://  ip  : port ",
+}
+
+
 # re = requests.get(api,headers=headers)
+# re = requests.get(api,proxies=proxies)
 re = requests.post(api,headers=headers,data=data)
 
 
